@@ -1,0 +1,162 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d5d5d6;
+    text-align: center;
+}
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #080063;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;/*espaçamento interno 15px para os lados, 0 cima e baixo*/
+    border: none;
+}
+nav{
+    background-color: rgb(64, 93, 221);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;/*alinhamento na horizontal - espaçamento entre os links*/
+    align-items: center;
+}
+#links-menu{
+    display: flex;
+    gap: 15px;
+}
+/*configura o estilo das âncoras que estão dentro do nav*/
+nav a {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none; /*não faz decoração no link*/
+    padding: 10px 15px;
+    font-size: 18px; /*tamanho da fonte*/
+    background: #080063;
+    border-radius: 5px;/*borda de canto arredondado*/
+}
+nav a:hover{
+    background: #003d82;
+}
+img{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;/*espaçamento externo à direita*/
+    border-radius: 10px;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+.arrecadação{
+    background: rgb(197, 213, 238);
+    margin: 20px auto;
+    width: 80%;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 20px;
+}
+.escala{
+    background: rgb(197, 213, 238);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: justify;
+    border-radius: 10px;
+}
+.avulsos{
+    background: rgb(197, 213, 238);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: justify;
+    border-radius: 10px;
+}
+.sangue{
+    background: rgb(197, 213, 238);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    text-align:justify;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+}
+.acao{
+    background: rgb(197, 213, 238);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: justify;
+    border-radius: 10px;
+}
+.meta{
+    background: rgb(197, 213, 238);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: justify;
+    border-radius: 10px;
+}
+.homenagem{
+    background: rgb(197, 213, 238);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: justify;
+    border-radius: 10px;
+}
+.mascote{
+    background: rgb(197, 213, 238);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: justify;
+    border-radius: 10px;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+th{
+    background-color: #003d82;
+    color: white;
+}
+.tableformato{
+    text-align: justify;
+}
+#Laranja{
+    background-color: orange;
+    color: white;
+}
+#Preta{
+    background-color: black;
+    color: white;
+}
+#Roxa{
+    background-color: purple;
+    color: white;
+}
+#Verde{
+    background-color: green;
+    color: white;
+}
+#Vermelha{
+    background-color: red;
+    color: white;
+}
+.campos{
+    margin: 20px;
+}

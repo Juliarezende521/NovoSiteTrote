@@ -43,7 +43,7 @@ Este site tem como missão:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Juliarezende521/Site-Trote-Solidario.git
+   git clone https://github.com/Juliarezende521/NovoSiteTrote.git
    ```
 2. Acesse a pasta do projeto.
 3. Abra o arquivo `index.html` no seu navegador.
